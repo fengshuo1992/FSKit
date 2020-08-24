@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 # 名字要一致
 s.name             = 'FSKit'
 # 版本要和git的tag版本一致
-s.version          = '0.1.2.b'
+s.version          = '0.1.0.Binary'
 # 描述
 s.summary          = '活体识别SDK二次封装'
 
