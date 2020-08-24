@@ -12,4 +12,11 @@
 - (void)name {
     NSLog(@"aaaaaaaaaa");
 }
+
+/// 答应你的名字
+/// @param name 你的名字
+- (void)name:(NSString *)name {
+    NSLog(@"这个是名字%@", name);
+}
+
 @end
