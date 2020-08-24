@@ -7,7 +7,7 @@
 //
 
 #import "FSViewController.h"
-
+#import <FSKit/TestAPiObject.h>
 @interface FSViewController ()
 
 @end
@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad
 {
+  TestAPiObject * object =   [[TestAPiObject alloc] init];
+    [object name];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }

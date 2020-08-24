@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FSKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - FSKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  FSKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FSKit: 2acdfd9dbdae1ae1af342d8bf1769f8e180cc1e2
+
+PODFILE CHECKSUM: 780b29f6eb18d42769628f1e1e148c255f5fccc6
+
+COCOAPODS: 1.9.3
