@@ -23,11 +23,6 @@
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC"
   },
-  "dependencies": {
-    "Masonry": [
-
-    ]
-  },
   "frameworks": [
     "UIKit",
     "CoreMedia",

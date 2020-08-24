@@ -4,9 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - FSKit (0.1.0.Binary):
-    - Masonry
-  - Masonry (1.1.0)
+  - FSKit (0.1.0.Binary)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -15,7 +13,6 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
-    - Masonry
 
 EXTERNAL SOURCES:
   FSKit:
@@ -23,8 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  FSKit: 89cce3f4cf5b2782f24a58ada252992bf3406229
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  FSKit: 1277aae96d92962ec6b17ae8065e2a8679388d09
 
 PODFILE CHECKSUM: 780b29f6eb18d42769628f1e1e148c255f5fccc6
 
