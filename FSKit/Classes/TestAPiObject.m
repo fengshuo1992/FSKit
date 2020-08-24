@@ -18,5 +18,9 @@
 - (void)name:(NSString *)name {
     NSLog(@"这个是名字%@", name);
 }
+///测试的名字
+- (void)testName:(NSString *)name {
+    NSLog(@"testname%@", name);
+}
 
 @end

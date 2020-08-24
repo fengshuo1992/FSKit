@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param name 你的名字
 - (void)name:(NSString *)name;
 
+///测试的名字
+- (void)testName:(NSString *)name;
 @end
 
 NS_ASSUME_NONNULL_END

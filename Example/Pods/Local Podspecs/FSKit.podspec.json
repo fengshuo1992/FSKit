@@ -1,6 +1,6 @@
 {
   "name": "FSKit",
-  "version": "0.1.0.Binary",
+  "version": "0.1.2.b",
   "summary": "活体识别SDK二次封装",
   "description": "描述信息:这是一个二次封装SDK的lib,将会用到很多著名第三方SDK,该功能用于打包包含这些著名第三方(该插件通过对引用的三方库进行重命名很好的解决了类库命名冲突的问题。http://www.cnblogs.com/brycezhang/p/4117180.html)",
   "homepage": "https://github.com/fengshuo1992/FSKit.git",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/fengshuo1992/FSKit.git",
-    "tag": "0.1.0.Binary"
+    "tag": "0.1.2.b"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "public_header_files": "Pod/Products/include/*.h",
+  "public_header_files": "FSKit/Classes/TestAPiObject.h",
   "static_framework": true,
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC"
@@ -29,9 +29,5 @@
     "AVFoundation",
     "Foundation"
   ],
-  "prepare_command": "/bin/bash build_lib.sh",
-  "source_files": "Pod/Products/include/**",
-  "ios": {
-    "vendored_libraries": "Pod/Products/lib/*.a"
-  }
+  "source_files": "FSKit/Classes/**/*"
 }
