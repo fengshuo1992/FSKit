@@ -43,13 +43,13 @@ s.ios.deployment_target = '10.0'
 #'SOCRLib' =>[]
 #}
 # 公开头文件 打包只公开特定的头文件
-s.public_header_files = 'FSKit/Classes/TestAPiObject.h'
+#s.public_header_files = 'FSKit/Classes/TestAPiObject.h'
 # 调试公开所有的头文件 这个地方下面的头文件 如果是在Example中调试 就公开全部，需要打包就只公开特定的h文件
 # s.public_header_files = 'Pod/Classes/**/*.h'
 # 私有头文件
 # subcfiles.private_header_files = "MyLibrary/cfiles/**/*.h"
 # 是否是静态库 这个地方很重要 假如不写这句打出来的包 就是动态库 不能使用 一运行会报错 image not found
-s.static_framework  =  true
+# s.static_framework  =  true
 # 载入第三方.a (如paynuc.a这种)
 #s.vendored_libraries = 'SOCRLib/Classes/openssl/include/*.{a}'
 # 载入第三方.a头文件
